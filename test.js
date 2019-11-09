@@ -1,6 +1,7 @@
 // TASK 1
 // Make this work (repeat 3 times the contents of an array):
 // repeat([1,2,3]); // [1,2,3,1,2,3,1,2,3]
+
 const example = [1,2,3];
 
 function repeat(array,times) {
@@ -16,7 +17,6 @@ console.log(repeat(example,3));
 
 // Task 2
 // Make this work (no vowels, lowercase except the first letter):
-
 // reformat("liMeSHArp DeveLoper TEST") // Lmshrp dvlpr tst
 
 const exampleText = 'liMeSHArp DeveLoper TEST';
